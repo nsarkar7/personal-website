@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Neil Sarkar — EECS student at Yale. Wearables research, games, robotics.">
+<title>Neil Sarkar</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=Young+Serif&display=swap">
+<style>
+  :root {
+    --ground: #f6f1e6;
+    --ink: #24211a;
+    --muted: #6e6553;
+    --accent: #0f7a5a;
+    --rule: #e2d9c6;
+    color-scheme: light dark;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --ground: #171410;
+      --ink: #eae4d6;
+      --muted: #a3977e;
+      --accent: #4cc49a;
+      --rule: #2c2720;
+    }
+  }
+  :root[data-theme="dark"] {
+    --ground: #171410;
+    --ink: #eae4d6;
+    --muted: #a3977e;
+    --accent: #4cc49a;
+    --rule: #2c2720;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--ground);
+    color: var(--ink);
+    font-family: "Source Serif 4", Georgia, serif;
+    font-size: 17px;
+    line-height: 1.65;
+  }
+  .page {
+    max-width: 38rem;
+    margin: 0 auto;
+    padding: 5rem 1.5rem 4rem;
+  }
+  h1 {
+    font-family: "Young Serif", Georgia, serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    margin: 0 0 1.25rem;
+  }
+  p { margin: 0 0 1.25rem; }
+  ul {
+    margin: 0 0 1.75rem;
+    padding-left: 1.2rem;
+  }
+  li { margin-bottom: 0.6rem; }
+  li:last-child { margin-bottom: 0; }
+  a {
+    color: var(--accent);
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+  }
+  a:hover { text-decoration-thickness: 2px; }
+  a:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+    border-radius: 2px;
+  }
+  footer {
+    border-top: 1px solid var(--rule);
+    padding-top: 1.25rem;
+    font-family: "IBM Plex Mono", ui-monospace, monospace;
+    font-size: 0.82rem;
+    color: var(--muted);
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <h1>Neil Sarkar</h1>
+
+  <p>Studying math &amp; physics at Yale ('30).</p>
+
+  <ul>
+    <li>Led my school's  <a href="https://www.vexrobotics.com/competition">VEX Robotics</a> team to 3 international championship titles, World Division semifinalist, and a CA Bay Area champion.</li>
+    <li>Built web games for <a href="https://www.coolmathgames.com/">Coolmath Games</a> with 2.1M+ plays.</li>
+    <li>Researching wearable electronics in the Rubinsky Lab at UC Berkeley.</li>
+    <li>Built VR hand-tracking DJ controls as an engineering intern at <a href="https://tribexr.com">TribeXR</a>.</li>
+  </ul>
+
+  <footer>
+    <p>Email: <a href="mailto:neil.sarkar@yale.edu">neil.sarkar@yale.edu</a></p>
+  </footer>
+
+</div>
+</body>
+</html>
